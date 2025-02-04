@@ -1,4 +1,5 @@
 package com.example.catapp.fragments
+
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -23,10 +24,10 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Example: Navigate to DetailsFragment with a CatImage object
+
         val catImage = CatImage(
             id = "abc123",
-            url = "https://cdn2.thecatapi.com/images/abc123.jpg",
+            url = "https://i.pinimg.com/736x/fc/59/f5/fc59f5945ba4d316ddf4128bcb5db3ac.jpg",
             width = 500,
             height = 400
         )
